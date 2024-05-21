@@ -252,8 +252,13 @@ hr{
 }
 
 @media screen and (max-width: 768px) {
+    .container {
+        max-width: 95vw;
+        width: 100%;
+        margin: auto;
+    }
     .navbar__logo {
-        margin-right: 20px;
+        margin-right: 5px;
     }
     .navbar__item {
         margin-right: 5px;
