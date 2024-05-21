@@ -1,0 +1,287 @@
+html {
+    line-height: 1.5;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+input,
+textarea,
+select,
+button {
+    outline: none;
+    font: inherit;
+}
+
+input {
+    line-height: normal;
+}
+
+label,
+button {
+    cursor: pointer;
+    user-select: none !important;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    user-select: none !important;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/* Mobie: width < 740px */
+@media only screen and (max-width: 46.1875em) {
+
+    input[type="color"],
+    input[type="date"],
+    input[type="datetime"],
+    input[type="datetime-local"],
+    input[type="email"],
+    input[type="month"],
+    input[type="number"],
+    input[type="password"],
+    input[type="search"],
+    input[type="tel"],
+    input[type="text"],
+    input[type="time"],
+    input[type="url"],
+    input[type="week"],
+    select:focus,
+    textarea {
+        font-size: 16px;
+    }
+}
+
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar {
+    width: 100vw;
+    height: 50px;
+    background-color: #007bff;
+}
+
+.navbar-list {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__logo {
+    margin-right: 100px;
+    margin-top: 2px;
+}
+
+.navbar__item {
+    margin-right: 30px;
+}
+
+.navbar__item a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.navbar__item a:hover {
+    color: red;
+}
+
+.container {
+    max-width: 80vw;
+    width: 100%;
+    margin: auto;
+}
+
+.navbar__logo img {
+    width: 80px;
+}
+
+.row {
+    max-width: 50vw;
+    width: 100%;
+    margin: auto;
+}
+
+.login-block {
+    background-color: white;
+    padding: 80px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.login-block__logo {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-block__logo img {
+    width: 50%;
+}
+
+.login-block__title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group span {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+}
+
+.form-group a {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #007bff;
+    text-decoration: none;
+}
+
+::placeholder {
+    color: transparent;
+}
+
+.form-control {
+    width: 30vw;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 30vw;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+hr{
+    width: 90vw;
+    height: 1px;
+    background-color: #EBEBEB;
+    margin: auto;
+    border: no
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+}
+
+.info-footer a {
+    color: #007bff;
+}
+
+@media screen and (max-width: 992px) {
+    .row {
+        max-width: 95vw;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar__logo {
+        margin-right: 20px;
+    }
+    .navbar__item {
+        margin-right: 5px;
+    }
+    .navbar__item a {
+        font-size: 10px;
+    }
+    .login-block__logo {
+        margin-bottom: 20px;
+    }
+    .navbar__item {
+        margin-right: 10px;
+    }
+    .login-block {
+        padding: 10px;
+    }
+    .form-control {
+        width: 60vw;
+    }
+    .btn {
+        width: 60vw;
+    }
+}
+
+
+
+
+
+
+
+

@@ -618,7 +618,7 @@ footer .footer-content .text-muted {
 
 @media(min-width: 768px) {
     #homepage-header {
-        margin-bottom: 30rem
+        margin-bottom: 25rem
     }
 }
 
@@ -630,7 +630,7 @@ footer .footer-content .text-muted {
     }
 
     #homepage-header .navbar-dark {
-        margin-top: .25rem
+        margin-top: 20rem
     }
 
     #homepage-header .navbar li a {
