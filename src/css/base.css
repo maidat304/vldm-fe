@@ -74,8 +74,8 @@
     color: #343a40
 }
 
-.download-btn,.game-payment {
-    display: none
+.download-btn {
+    display: block;
 }
 
 .wrapper {

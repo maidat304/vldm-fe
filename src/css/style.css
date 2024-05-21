@@ -16454,8 +16454,12 @@ a.text-dark:focus,a.text-dark:hover {
     color: #212529!important
 }
 
-.text-muted {
+.text-footer {
     color: #6c757d!important
+}
+
+.text-footer a {
+    text-decoration: none;
 }
 
 .text-black-50 {
