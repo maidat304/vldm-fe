@@ -11484,7 +11484,7 @@ input[type=button].btn-block,input[type=reset].btn-block,input[type=submit].btn-
     border-bottom-right-radius: .2rem
 }
 
-.badge {
+.badge-tag {
     display: inline-block;
     padding: .25em .4em;
     font-size: 75%;
