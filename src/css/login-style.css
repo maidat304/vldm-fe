@@ -126,10 +126,20 @@ ul {
     color: red;
 }
 
+
+
 .container {
     max-width: 80vw;
     width: 100%;
     margin: auto;
+}
+
+.wrapper {
+    background-color: white;
+    padding: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
 }
 
 .navbar__logo img {
