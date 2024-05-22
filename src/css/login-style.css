@@ -267,6 +267,11 @@ hr{
         width: 100%;
         margin: auto;
     }
+
+    .wrapper {
+        padding: 10px;
+    }
+
     .navbar__logo {
         margin-right: 5px;
     }
